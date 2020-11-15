@@ -135,7 +135,7 @@ server.title("접속 목록")
 server.geometry("300x800")
 server.resizable(False, True)
 
-label_list = tkinter.Label(server, text="< 참여자 목록 >", font=("Times New Roman", 10))
+label_list = tkinter.Label(server, text="< 참여자 목록 >", font=('Noto Sans CJK KR DemiLight', 10))
 label_list.place(x=10, y=10)
 
 client.mainloop()
